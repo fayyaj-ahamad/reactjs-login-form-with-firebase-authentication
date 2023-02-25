@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@500&family=Nothing+You+Could+Do&family=Overlock+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .title{
+    color: #f1f1f1;
+    margin: 20px 0px 20px 0px;
+    font-size: 1.2em;
+}
+
+.container .main{
+    width: 330px;
+    background-color: rgb(233, 231, 223);
+    border-radius: 0.3em;
+    box-shadow: 5px 5px 5px gray;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container .input-field{
+    width: 100%;
+    margin: 5px;
+    padding: 2px;
+}
+
+.container .input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border: 0.2em solid rgb(41, 41, 92);
+    border-radius: 0.3em;
+    font-size: 0.8em;
+}
+
+.container label{
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    color: #535353;
+}
+
+.container .input:focus{
+    border-color: #090103;
+}
+
+.container button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(41, 41, 92);
+    padding: 5px 0px;
+    background-color: rgb(41, 41, 92);
+    font-size: 1em;
+    color: #f1f1f1;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: rgb(109, 109, 145);
+}
+
+.success-msg, 
+.error-msg{
+    width: 50%;
+    height: 30px;
+    margin: 8px;
+    padding: 5px;
+    color: #f1f1f1;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+.success-msg{
+    background-color: rgb(141, 209, 141);
+
+}
+.error-msg{
+    background-color: rgb(189, 112, 112);
+}

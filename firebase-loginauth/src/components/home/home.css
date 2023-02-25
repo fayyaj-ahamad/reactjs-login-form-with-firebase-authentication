@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(34, 34, 92);
+    
+}
+
+h3{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: whitesmoke;
+}
+
+h2{
+    position: absolute;
+    top: 40%;
+    left: 30%;    
+    color: whitesmoke;
+}
